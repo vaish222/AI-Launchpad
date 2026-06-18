@@ -269,5 +269,6 @@ Your goal is to reduce content research and writing time while improving the qua
 │ • Newsletter Authors     │
 └──────────────────────────┘
 
+<img width="1687" height="932" alt="Content generation image" src="https://github.com/user-attachments/assets/91ae6dff-372c-4c8c-8c6a-a56bd298e0a3" />
 
   
