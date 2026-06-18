@@ -5,6 +5,7 @@
 ## Overview
 
 An AI-powered content generation assistant that helps users discover recent technology news, summarize key updates, and generate ready-to-review content for LinkedIn, newsletters, blogs, or internal team updates.
+
 ## Problem
 
 Creating consistent technology content requires repeated effort: finding relevant news, reading multiple articles, extracting key points, identifying why it matters, and rewriting it for different audiences.
@@ -186,6 +187,87 @@ Briefly explain why.
 
 Your goal is to reduce content research and writing time while improving the quality, consistency, and usefulness of technology content.
 ```
+## Flowchart
+
+┌─────────────────┐
+│    TRIGGER      │
+├─────────────────┤
+│ • Scheduled Run │
+│   (Daily/Weekly)│
+│ • Manual Request│
+│ • Trending Topic│
+└────────┬────────┘
+│
+▼
+┌──────────────────────────┐
+│         INPUTS           │
+├──────────────────────────┤
+│ • RSS Feeds              │
+│ • News Article URLs      │
+│ • Topics of Interest     │
+│ • Target Audience        │
+│ • Preferred Tone         │
+│ • Publishing Channel     │
+└────────┬─────────────────┘
+│
+▼
+┌────────────────────────────────────┐
+│   TECH CONTENT GENERATION AGENT    │
+├────────────────────────────────────┤
+│ • Discover Relevant Articles       │
+│ • Filter Trending Topics           │
+│ • Summarize Content                │
+│ • Extract Key Insights             │
+│ • Explain Why It Matters           │
+│ • Identify Audience                │
+│ • Generate LinkedIn Draft          │
+│ • Generate Newsletter Content      │
+│ • Suggest Hashtags                 │
+└────────┬───────────────────────────┘
+│
+▼
+┌──────────────────────┐
+│        TOOLS         │
+├──────────────────────┤
+│ • OpenAI             │
+│ • RSS Feed Reader    │
+│ • HTTP Request       │
+│ • Google Sheets      │
+│ • Notion             │
+│ • Slack / Gmail      │
+└────────┬─────────────┘
+│
+▼
+┌──────────────────────┐
+│   HUMAN REVIEW       │
+├──────────────────────┤
+│ • Review Draft       │
+│ • Edit Content       │
+│ • Approve / Reject   │
+└────────┬─────────────┘
+│
+▼
+┌──────────────────────────┐
+│        OUTPUTS           │
+├──────────────────────────┤
+│ • Tech Brief             │
+│ • LinkedIn Post          │
+│ • Newsletter Summary     │
+│ • Blog Outline           │
+│ • Social Media Post      │
+│ • Recommended Hashtags   │
+└────────┬─────────────────┘
+│
+▼
+┌──────────────────────────┐
+│       BENEFICIARY        │
+├──────────────────────────┤
+│ • Content Creators       │
+│ • Engineering Leaders    │
+│ • Developer Advocates    │
+│ • Tech Communities       │
+│ • Newsletter Authors     │
+└──────────────────────────┘
 
 
   
