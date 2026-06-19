@@ -8,9 +8,9 @@ An AI-powered content generation assistant that helps users discover recent tech
 
 ## Problem
 
-Creating consistent technology content requires repeated effort: finding relevant news, reading multiple articles, extracting key points, identifying why it matters, and rewriting it for different audiences.
+Creating consistent technology content requires repeated effort: finding relevant news, reading multiple articles, extracting key points, identifying why it matters, and rewriting it for different audiences. This workflow reads a url and summarizes the content for key updates.
 
-## Solution
+## What does this agent do?
 
 An AI agent performs:
 
@@ -189,5 +189,34 @@ Your goal is to reduce content research and writing time while improving the qua
 ```
 
 <img width="1687" height="932" alt="Content generation image" src="https://github.com/user-attachments/assets/91ae6dff-372c-4c8c-8c6a-a56bd298e0a3" />
+
+## The Plan before building it
+This workflow automatically analyzes technology news articles and generates professional content in multiple formats—LinkedIn posts, social media updates, newsletter summaries, and blog angles—ready for human review before publishing.
+
+Trigger:
+- Starts when you submit an article URL, paste content through a web form.
+Collect article information through a web form where you can paste URLs, article content or specify your target audience and preferred tone.
+- Fetch the full article content from the URL if you provided a link instead of pasting the text directly
+Analyze the article to identify the main technology topic, extract key facts and claims, determine why it matters, and assess the practical impact for developers or businesses.
+- Generate the complete Tech Content Brief including article summary, key takeaways, LinkedIn post, short social post, newsletter paragraph, blog angle suggestions, relevant hashtags, and a publishing recommendation
+Store the generated content and article metadata for future reference and content calendar tracking.
+Notes:
+
+- The workflow focuses on accuracy over hype—it won't invent facts not present in the source article.
+- All generated content is designed for human review before publishing, not automatic posting
+
+<img width="499" height="683" alt="Screenshot 2026-06-18 at 1 45 28 PM" src="https://github.com/user-attachments/assets/65079c11-2bc8-401b-9556-f8632072ef4e" />
+
+<img width="1451" height="690" alt="Screenshot 2026-06-18 at 1 46 57 PM" src="https://github.com/user-attachments/assets/93d80383-2737-4e44-8630-b564ff05014b" />
+
+<img width="1213" height="791" alt="Screenshot 2026-06-18 at 1 56 37 PM" src="https://github.com/user-attachments/assets/9c6bec29-6ac2-4ec6-a017-b6b17ff00e1a" />
+
+Reflection
+
+Building this workflow in n8n helped me understand that AI agents are much more than single prompts or chat interactions. They can orchestrate multiple tools, data sources, and decision points to deliver context-aware and actionable outcomes. Through this experience, I gained hands-on exposure to workflow design, agent orchestration, tool integration, and structuring LLM-driven reasoning within a real-world use case. I also learned the importance of iteration, testing, and debugging when building agentic systems. Most importantly, it reinforced the idea that everyday problems can be transformed into practical AI solutions by thoughtfully connecting the right data, tools, and workflows.
+
+
+
+
 
   
