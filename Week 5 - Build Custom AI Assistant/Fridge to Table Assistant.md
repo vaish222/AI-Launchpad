@@ -59,9 +59,21 @@ experience rather than spending time on infrastructure or tooling setup.
 ## Output
 
 - Prompt 1: I have eggs, broccoli and spinach
+  
 - Prompt 2: Provide some Indian recipes with these ingredients.
 - Prompt 3: What can I cook from my fridge?
 - Prompt4: Use these leftovers from dinner - rice, salad, pasta
 - Prompt 5: I have mushrooms, rice and yoghurt today. I want to create some simple Indian recipe.
 
-## 
+
+## Link to custom GPT -
+https://chatgpt.com/g/g-6a2233f9d3448191b97e53170086445c-fridge-to-table-chef
+
+## Reflection
+
+I enjoyed building this assistant and experimenting with different prompts and scenarios. The
+most valuable part of this assignment was realizing how creative prompt engineering can be.
+As I refined and tested prompts, I discovered new ideas and ways to improve the assistant's
+responses. This iterative process made the experience both engaging and rewarding, and it
+motivated me to continue exploring how small changes in prompts can lead to significantly
+different and often better outcomes.
