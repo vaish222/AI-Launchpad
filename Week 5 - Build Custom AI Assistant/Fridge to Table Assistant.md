@@ -59,7 +59,6 @@ experience rather than spending time on infrastructure or tooling setup.
 ## Output
 
 - Prompt 1: I have eggs, broccoli and spinach
-  
 - Prompt 2: Provide some Indian recipes with these ingredients.
 - Prompt 3: What can I cook from my fridge?
 - Prompt4: Use these leftovers from dinner - rice, salad, pasta
@@ -69,6 +68,7 @@ experience rather than spending time on infrastructure or tooling setup.
 ## Link to custom GPT -
 https://chatgpt.com/g/g-6a2233f9d3448191b97e53170086445c-fridge-to-table-chef
 
+
 ## Reflection
 
 I enjoyed building this assistant and experimenting with different prompts and scenarios. The
@@ -77,3 +77,6 @@ As I refined and tested prompts, I discovered new ideas and ways to improve the 
 responses. This iterative process made the experience both engaging and rewarding, and it
 motivated me to continue exploring how small changes in prompts can lead to significantly
 different and often better outcomes.
+
+[CustomGTP AI assistant- Fridge to table chef.pdf](https://github.com/user-attachments/files/29170812/CustomGTP.AI.assistant-.Fridge.to.table.chef.pdf)
+
