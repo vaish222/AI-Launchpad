@@ -117,5 +117,6 @@ decided to remove it from the MVP. This experience highlighted the importance of
 Overall, the project demonstrated how modern AI tools can significantly accelerate
 prototyping while still requiring thoughtful problem-solving and product decisions.
 
+[Week2 Assignment 2 - CurioKids.pdf](https://github.com/user-attachments/files/29170961/Week2.Assignment.2.-.CurioKids.pdf)
 
 
